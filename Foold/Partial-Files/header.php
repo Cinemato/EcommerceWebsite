@@ -41,14 +41,15 @@
        <?php
                 if(isset($_SESSION['user_id']))
                 {
-                    echo '<a href="cart.php"><img src="Images/cart.png" width="40px" height="40px" style="margin-bottom: 7px;"></a>';
+                    echo '<a href="cart.php"><img src="Images/cart-icon.png" width="40px" height="40px" style="margin-top: 3px; margin-right:5px;"></a>';
                 }
 
                 else
                 {
-                    echo '<a href="login.php"><img src="Images/cart.png" width="40px" height="40px" style="margin-bottom: 7px;"></a>';
+                    echo '<a href="login.php"><img src="Images/cart-icon.png" width="40px" height="40px" style="margin-top: 3px; margin-right:5px;"></a>';
                 }
            ?>
+
                 <h4 class="count"><?php echo isset($_SESSION['user_id']) ? count($cart->getCart($_SESSION['user_id'])) : 0; ?></h4>
 
                 <img src="Images/menu.png" width="40px" height="40px" class="menu" onclick="toggleMenu();">

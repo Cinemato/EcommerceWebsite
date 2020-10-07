@@ -38,7 +38,7 @@
                     </div>
             </div>
 
-            <div class="col-2" style="margin-top: 60px;">
+            <div class="col-2 productInfo">
                 <h1><?php echo $product['product_name']?></h1>
                 <h4><?php echo $product['product_price']?> KWD</h4>
                 <form method="post">
@@ -84,7 +84,7 @@
 
                 </form>
                 <h3 style="text-align: left;">Product Details</h3>
-                <hr style="width: 300px; height: 2.5px; background: #555; border: 1px solid #555; margin-bottom: 10px;">
+                <hr class="bottomLine">
                 <p style="text-align: left;"><?php echo $product['product_desc']?></p>
 
             </div>

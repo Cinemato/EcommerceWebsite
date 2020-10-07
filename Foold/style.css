@@ -92,20 +92,27 @@ nav img:hover{
     color: #555;
 }
 
-.title::after{
-    content: '';
+.bottomLine{
+    width: 300px;
+    height: 2.5px;
     background: #555;
-    width: 120px;
-    height: 5px;
-    position: absolute;
-    margin: 10px 0px;
-    transform: translateX(-50%);
+    border: 1px solid #555;
+    margin-bottom: 10px;
+}
+
+.titleLine{
+    max-width: 120px;
+    margin: auto;
+    margin-top:5px;
+    height:5px;
+    border-radius:3px;
+    background: #555;
+    border: 1px solid #555;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
     margin: 30px 0px;
 }
@@ -128,6 +135,10 @@ nav img:hover{
 
 /*---------Product Page-------------*/
 
+.productInfo{
+    margin-top: 60px;
+}
+
 .col-2 h1{
     font-size: 50px;
     margin-bottom: 25px;
@@ -141,7 +152,7 @@ nav img:hover{
     display: flex;
     justify-content: space-between;
     max-width: 220px;
-    margin: auto;
+
 }
 
 h3{
@@ -463,10 +474,10 @@ th:last-child{
 
 .count{
     float: right;
-    border: 1px solid #555;
+    border: 1px solid black;
     color: white;
     border-radius: 20px;
-    background: #555;
+    background: black;
     padding: 3px 7px;
     font-size: 13px;
     margin-bottom: 30px;
@@ -538,6 +549,7 @@ th:last-child{
     margin-left: 25px;
     margin-right: 20px;
     display: none;
+    cursor: pointer;
 }
 
 /*---------Media Query--------------*/
@@ -546,9 +558,9 @@ th:last-child{
     nav ul{
         margin-top: 63px;
         position: absolute;
-        top: 70px;
+        top: 91px;
         left: 0px;
-        background: #555;
+        background: black;
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
@@ -574,9 +586,17 @@ th:last-child{
         display: block;
     }
 
+    .productInfo{
+        margin-top: 20px;
+    }
+
+
 }
 
 @media only screen and (max-width: 600px){
+    nav ul{
+        top: 110px;
+    }
     .navbar{
         padding: 10px;
     }
@@ -597,6 +617,14 @@ th:last-child{
     }
     .cart-product img{
         margin-bottom: 8px;
+    }
+
+    .productInfo{
+        margin-top: 0px;
+    }
+
+    .productInput{
+        margin: auto;
     }
 }
 

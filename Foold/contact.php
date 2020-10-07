@@ -6,6 +6,7 @@
 <div class="container">
     <div class="title">
         <h2>Contact Us</h2>
+        <hr class="titleLine">
     </div>
     <?php
         if(isset($_GET['sent']))

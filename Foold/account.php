@@ -14,6 +14,7 @@
 <div class="container">
     <div class="title">
         <h2>Your Account</h2>
+        <hr class="titleLine">
     </div>
     <?php
         if(isset($_GET['save']))

@@ -117,7 +117,7 @@
 
 <script src="Scripts/paymentMethodChange.js"></script>
 
-
+<br>
 <?php
     include('Partial-Files/footer.php');
 ?>

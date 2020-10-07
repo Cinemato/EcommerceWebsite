@@ -5,7 +5,7 @@
     <div class="title">
         <h2>About Us</h2>
     </div>
-    <div class="centerText" style="max-height: 400px;">
+    <div class="centerText">
         <p style="padding: 0px 3px;">Foold is a small start-up company created by 4 college students wanting to make a change</p>
         <br>
         <p style="padding: 0px 3px;">We will try our best to bring you new and intereseting products that cannot be found anywhere else on the market!</p>

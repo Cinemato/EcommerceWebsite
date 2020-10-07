@@ -83,9 +83,9 @@
                     ?>
 
                 </form>
-                <h3>Product Details</h3>
+                <h3 style="text-align: left;">Product Details</h3>
                 <hr style="width: 300px; height: 2.5px; background: #555; border: 1px solid #555; margin-bottom: 10px;">
-                <p><?php echo $product['product_desc']?></p>
+                <p style="text-align: left;"><?php echo $product['product_desc']?></p>
 
             </div>
             <?php

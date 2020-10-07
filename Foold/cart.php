@@ -74,6 +74,9 @@
     else{
         echo '<h1 style="text-align: center; color: rgba(0, 0, 0, 0.7)">Oops.. The Cart is Empty <br><br> :(</h1>';
     }
+?>
+   <br>
+<?php
     include('Partial-Files/footer.php');
 ?>
 

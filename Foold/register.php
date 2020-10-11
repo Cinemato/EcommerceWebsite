@@ -5,7 +5,7 @@
 
 
 <div class="centerText infoText">
-    <p style="font-size: 18px">You need to login to be able to purchase products!</p>
+    <p style="font-size: 14.5px">You need to login to be able to purchase products!</p>
 </div>
 
 <br>

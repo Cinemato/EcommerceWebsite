@@ -87,7 +87,7 @@
                         </div>
                     </div>
                 </td>
-                <td style="font-size: 20px;">&nbsp;&nbsp;&nbsp;x<?php echo $cartProduct['product_quantity']?></td>
+                <td style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;x<?php echo $cartProduct['product_quantity']?></td>
                 <td style="font-size: 18px;"><?php echo $product['product_price'] * $cartProduct['product_quantity']?> KWD</td>
 
             </tr>

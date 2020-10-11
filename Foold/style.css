@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*-------Navigation Bar----------*/
 .navbar{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
@@ -29,7 +37,7 @@ nav ul li{
 
 nav a{
     color:#4E4D46;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 a{
@@ -39,7 +47,7 @@ a{
 
 p{
     color: #555;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 nav a:hover{
@@ -136,11 +144,11 @@ nav img:hover{
 /*---------Product Page-------------*/
 
 .productInfo{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .col-2 h1{
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 25px;
 }
 
@@ -161,17 +169,17 @@ h3{
 
 .col-2 h3{
     margin: 40px 0px 4px 0px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .col-2 p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .col-2 h4{
     font-weight: bold;
     color: #555;
-    font-size: 25px;
+    font-size: 23px;
     padding: 0px 0px 30px 0px;
 }
 
@@ -274,7 +282,7 @@ input:focus{
 /*---------Cart Page--------------*/
 
 .cart{
-    margin: 80px auto;
+    margin: 20px auto;
 }
 
 table{
@@ -287,11 +295,23 @@ table{
     flex-wrap: wrap;
 }
 
+.cart-product h3{
+    font-size: 15px;
+}
+
+.removeBtn{
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: #DC3636;
+    outline: none;
+}
+
 th{
     text-align: left;
     padding: 5px;
     color: white;
-    background: #555;
+    background: black;
 }
 
 td{
@@ -314,11 +334,17 @@ td img{
     margin-top: 40px;
 }
 
+.emptyText{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 32px;
+}
+
 .total-price table{
     border-top: 3px solid black;
     width: 100%;
     max-width: 350px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 td:last-child{
@@ -346,14 +372,6 @@ th:last-child{
 
 .products-table tr:last-child{
     border-bottom: 0;
-}
-
-.cart-delete{
-    transition: color 0.5s;
-}
-
-.cart-delete:hover{
-    color: red
 }
 
 .cart input{
@@ -403,7 +421,7 @@ th:last-child{
 .checkoutContainer h2{
     padding-bottom:5px;
     margin: 20px 9px;
-    font-size: 30px;
+    font-size: 28px;
     border-bottom: 3px solid #555;
 }
 
@@ -448,7 +466,7 @@ th:last-child{
 
 .centerText p{
     margin: 0 8px;
-    font-size: 20px;
+    font-size: 17px;
     color: #555;
 }
 
@@ -479,7 +497,7 @@ th:last-child{
     border-radius: 20px;
     background: black;
     padding: 3px 7px;
-    font-size: 13px;
+    font-size: 11px;
     margin-bottom: 30px;
 }
 
@@ -558,7 +576,7 @@ th:last-child{
     nav ul{
         margin-top: 63px;
         position: absolute;
-        top: 91px;
+        top: 93px;
         left: 0px;
         background: black;
         width: 100%;
@@ -580,6 +598,7 @@ th:last-child{
 
     nav ul li a{
          color: white;
+        font-size: 24px;
     }
 
     .menu{
@@ -590,12 +609,16 @@ th:last-child{
         margin-top: 20px;
     }
 
-
+    .emptyText{
+        margin-bottom: 235px;
+        margin-top: 235px;
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px){
     nav ul{
-        top: 110px;
+        top: 113px;
     }
     .navbar{
         padding: 10px;
@@ -625,6 +648,10 @@ th:last-child{
 
     .productInput{
         margin: auto;
+    }
+
+    .emptyText{
+        font-size: 26px;
     }
 }
 

@@ -239,6 +239,11 @@ input:focus{
     margin-left: 2px;
 }
 
+.desc{
+    text-align: left;
+    width: 650px;
+}
+
 
 /*---------Footer--------------*/
 
@@ -613,6 +618,10 @@ th:last-child{
         margin-bottom: 235px;
         margin-top: 235px;
         font-size: 30px;
+    }
+
+    .desc{
+        width: 100%;
     }
 }
 

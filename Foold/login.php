@@ -6,7 +6,7 @@
     if(isset($_GET['signup']))
     {
         echo '<div class="centerText infoText" style="border: 1px solid #36DC3A; background: #36DC3A">
-                    <p style="font-size: 14.5px; color: white">Registration Successful! You Can Login Now!</p>
+                    <p style="font-size: 16px; color: white">Registration Successful! You Can Login Now!</p>
               </div>';
     }
     else

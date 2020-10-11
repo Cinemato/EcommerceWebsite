@@ -5,6 +5,13 @@
     {
         header("Location: index.php?sqlerror");
     }
+    else if(isset($_SESSION['user_id']))
+    {
+        if(count($cart->getCart($_SESSION['user_id'])) <= 0)
+        {
+            header("Location: index.php?sqlerror");
+        }
+    }
 
     $cartProducts = $cart->getCart($_SESSION['user_id']);
     $user_data = $user->getUser($_SESSION['user_id']);
@@ -65,7 +72,7 @@
     </div>
 
     <div class="container cart checkoutCart">
-        <h2 style="padding-bottom:5px; margin: 20px 3px; font-size: 30px;">Your Cart</h2>
+        <h2 style="padding-bottom:5px; margin: 7px 3px; font-size: 24px;">Your Cart</h2>
         <table class="products-table">
             <tr>
                 <th>Product</th>
@@ -80,8 +87,7 @@
                 <td>
                     <div class="cart-product">
                         <img src="<?php echo $product['product_image']?>">
-                        <div>
-                            <br>
+                        <div style="margin-top: 15px;">
                             <h3><?php echo $product['product_name']?></h3>
                             <p>Price: <?php echo $product['product_price']?> KWD</p>
                         </div>

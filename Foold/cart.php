@@ -85,6 +85,7 @@
     }
 ?>
 <br>
+<br>
 <?php
     include('Partial-Files/footer.php');
 ?>

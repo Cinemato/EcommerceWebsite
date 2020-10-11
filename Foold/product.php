@@ -54,10 +54,10 @@
                             {
                                 echo '<div class="productInput">
                                         <div>
-                                            <h5>Quantity</h5>
+                                            <h5 style="text-align:center;">QTY</h5>
                                             <input type="number" name="product_quantity" style="text-align:center;" value="1" min="1" max="50">
                                         </div>
-                                        <div style="margin-top: 27px;">
+                                        <div style="margin-top: 28px;">
                                             <button type="submit" class="btn">Add To Cart</button>
                                         </div>
 
@@ -69,10 +69,10 @@
                         {
                             echo '<div class="productInput">
                                         <div>
-                                            <h5>Quantity</h5>
+                                            <h5 style="text-align: center; font-size:12px;">QTY</h5>
                                             <input type="number" name="product_quantity" style="text-align:center;" value="1" min="1" max="50">
                                         </div>
-                                        <div style="margin-top: 27px;">
+                                        <div style="margin-top: 25.5px;">
                                             <button type="submit" class="btn">Add To Cart</button>
                                         </div>
 
@@ -85,7 +85,7 @@
                 </form>
                 <h3 style="text-align: left;">Product Details</h3>
                 <hr class="bottomLine">
-                <p style="text-align: left;"><?php echo $product['product_desc']?></p>
+                <p class="desc"><?php echo $product['product_desc']?></p>
 
             </div>
             <?php

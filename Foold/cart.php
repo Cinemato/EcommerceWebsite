@@ -20,14 +20,13 @@
 ?>
 <div class="container cart">
     <div class="title" style="color: black; text-align:left">
-        <h2>Your Cart</h2>
+        <h2 style="font-size: 28px;">Your Cart</h2>
     </div>
 </div>
 
 <div class="container cart">
-
     <table class="products-table">
-        <tr>
+        <tr style="border: none;">
             <th>Product</th>
             <th>Quantity</th>
             <th>Subtotal</th>
@@ -39,7 +38,7 @@
         <tr>
             <td>
                 <div class="cart-product">
-                    <img src="<?php echo $product['product_image']?>">
+                    <a href="<?php echo 'product.php?product_id=' . $product['product_id']?>"><img src="<?php echo $product['product_image']?>"></a>
                     <div>
                         <h3><?php echo $product['product_name']?></h3>
                         <p>Price: <?php echo $product['product_price']?> KWD</p>
@@ -65,7 +64,7 @@
         <table>
             <tr style="font-size: 20px;">
                 <td>Total</td>
-                <td><?php echo isset($product) ? $cart->getTotal($_SESSION['user_id']) : 0 ?> KWD</td>
+                <td><?php echo $cart->getTotal($_SESSION['user_id']) ?> KWD</td>
             </tr>
         </table>
     </div>

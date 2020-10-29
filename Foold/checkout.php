@@ -74,7 +74,7 @@
     <div class="container cart checkoutCart">
         <h2 style="padding-bottom:5px; margin: 7px 3px; font-size: 24px;">Your Cart</h2>
         <table class="products-table">
-            <tr>
+            <tr style="border: none;">
                 <th>Product</th>
                 <th>Quantity</th>
                 <th>Subtotal</th>

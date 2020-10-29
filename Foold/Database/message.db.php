@@ -46,8 +46,8 @@ if(isset($_POST['msg-submit']))
             $mail->Username = "khalidzzzzalhariri@gmail.com";
             $mail->SetFrom("khalidzzzzalhariri@gmail.com");
             $mail->Password = '99535499';
-            $mail->Subject = "Message ID: #" . count($messages) . " | Subject: " . $subject;
-            $mail->Body = "From: " . $name . "<br>Email: " . $email . "<br>User ID: #" . (isset($_SESSION['user_id']) ? $_SESSION['user_id'] : "Guest") . "<hr>" . $message;
+            $mail->Subject = "Message ID: " . count($messages) . " | Subject: " . $subject;
+            $mail->Body = "From: " . $name . "<br>Email: " . $email . "<br>User ID: " . (isset($_SESSION['user_id']) ? $_SESSION['user_id'] : "Guest") . "<hr>" . $message;
             $mail->addAddress('alharerekhaled@gmail.com');
 
             if(!$mail->Send())

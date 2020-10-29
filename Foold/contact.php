@@ -19,7 +19,7 @@
     <div class="centerText">
 
         <p>You can email us manually using our email <b>foold-support@gmail.com</b>, or you can use the form below</p>
-        <hr style="width: 300px; margin:20px auto;">
+        <hr style="width: 300px; margin:20px auto; border: 0.5px solid #555; opacity: 0.4;">
         <br>
         <?php
         if(isset($_GET['error']))

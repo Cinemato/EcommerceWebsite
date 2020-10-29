@@ -72,7 +72,7 @@
                                             <h5 style="text-align: center; font-size:12px;">QTY</h5>
                                             <input type="number" name="product_quantity" style="text-align:center;" value="1" min="1" max="50">
                                         </div>
-                                        <div style="margin-top: 25.5px;">
+                                        <div style="margin-top: 26px;">
                                             <button type="submit" class="btn">Add To Cart</button>
                                         </div>
 

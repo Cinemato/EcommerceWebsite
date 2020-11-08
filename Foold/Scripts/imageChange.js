@@ -7,7 +7,13 @@ for(let i = 0; i < smallImgs.length; i++)
 {
     smallImgs[i].onclick = function()
     {
-         productImg.src = smallImgs[i].src;
+        for(let j = 0; j < smallImgs.length; j++)
+        {
+            smallImgs[j].parentNode.style.borderColor = "#E7E7E7";
+        }
+        
+        productImg.src = smallImgs[i].src;
+        smallImgs[i].parentNode.style.borderColor = "#FFA20C";
     }
 }
 

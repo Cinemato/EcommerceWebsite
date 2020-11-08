@@ -21,19 +21,19 @@
                     if($product['product_id'] == $product_id){
             ?>
             <div class="col-2">
-                <img src="<?php echo $product['product_image']?>" width="100%" id="product-img">
+                <img src="Images/Products/109060-1.jpg" width="100%" id="product-img">
                     <div class="img-row">
-                      <div class="img-col">
-                          <img src="https://via.placeholder.com/1000" width="100%" class="small-img">
+                      <div class="img-col" style="border-color: #FFA20C">
+                          <img src="Images/Products/109060-1.jpg" width="100%" class="small-img">
                       </div>
                       <div class="img-col">
-                          <img src="https://via.placeholder.com/1000" width="100%" class="small-img">
+                          <img src="Images/Products/109060-1_1.jpg" width="100%" class="small-img">
                       </div>
                       <div class="img-col">
-                          <img src="https://via.placeholder.com/1000" width="100%" class="small-img">
+                          <img src="Images/Products/109060-1_2.jpg" width="100%" class="small-img">
                       </div>
                       <div class="img-col">
-                          <img src="https://via.placeholder.com/1000" width="100%" class="small-img">
+                          <img src="Images/Products/109060-1_3.jpg" width="100%" class="small-img">
                       </div>
                     </div>
             </div>

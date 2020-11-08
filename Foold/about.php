@@ -11,14 +11,11 @@
         <br>
         <p style="padding: 0px 3px;">We will try our best to bring you new and interesting products that cannot be found anywhere else!</p>
         <br>
-        <p style="padding: 0px 3px;">Join our email list to get emails about the latest news and products from our company!</p>
-
-        <div class="centerInput">
-            <form method="post">
-                <input required type="email" placeholder="Email" style="max-width: 300px; font-size: 15px;">
-                <button type="submit" class="btn">Join List</button>
-            </form>
-        </div>
+        <p style="padding: 0px 3px; font-size:30px;"><b>,,</b></p>
+        <br>
+        <p style="padding: 0px 3px; font-size:20px;">فولد عبارة عن شركة ناشئة و صغيرة انشأها ٤ طلاب جامعيين يرغبون في اجراء تغيير</p>
+        <br>
+        <p style="padding: 0px 3px; font-size:20px;">!سنبذل قصارى جهدنا لنقدم لكم منتجات جديدة ومثيرة للاهتمام لا يمكن العثور عليها في أي مكان آخر</p>
     </div>
 
 

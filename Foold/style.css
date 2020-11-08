@@ -146,6 +146,10 @@ nav img:hover{
 
 /*---------Product Page-------------*/
 
+#product-img{
+     border: 2px solid #E7E7E7;
+}
+
 .productInfo{
     margin-top: 40px;
 }
@@ -237,9 +241,8 @@ input:focus{
 
 .img-col{
     cursor: pointer;
-    flex-basis: 25%;
-    margin-right: 2px;
-    margin-left: 2px;
+    flex-basis: 24%;
+    border: 2px solid #E7E7E7;
 }
 
 .desc{
@@ -396,6 +399,7 @@ th:last-child{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    border-radius: 30px;
 }
 
 .checkoutContainer input, .checkoutContainer textarea{
@@ -471,6 +475,8 @@ th:last-child{
     margin-top: 50px;
     padding: 40px 0px;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+
 }
 
 .centerText p{

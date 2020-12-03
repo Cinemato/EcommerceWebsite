@@ -4,7 +4,6 @@
 <div class="container">
     <div class="title">
         <h2>All Products</h2>
-        <hr class="titleLine">
     </div>
 
     <div class="row">

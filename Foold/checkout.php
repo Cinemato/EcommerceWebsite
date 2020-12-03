@@ -25,15 +25,15 @@
                     <input type="email" placeholder="Email" value="<?php echo $user_data['email'] ?? "" ?>">
                 </div>
                 <div class="twoInput">
-                    <input type="text" placeholder="First Name" value="<?php echo $user_data['first_name'] ?? "" ?>">
-                    <input type="text" placeholder="Last Name" value="<?php echo $user_data['last_name'] ?? "" ?>">
+                    <input type="text" placeholder="First Name" value="<?php echo $user_data['first_name'] ?? "" ?>" style="margin-right: 7px;">
+                    <input type="text" placeholder="Last Name" value="<?php echo $user_data['last_name'] ?? "" ?>"style="margin-left: 7px;">
                 </div>
                 <div class="oneInput">
                     <input type="text" placeholder="Address" value="<?php echo $user_data['address'] ?? "" ?>">
                 </div>
                 <div class="twoInput">
-                    <input type="number" placeholder="Phone" value="<?php echo $user_data['phone'] ?? "" ?>">
-                    <input type="text" placeholder="City" value="<?php echo $user_data['city'] ?? "" ?>">
+                    <input type="number" placeholder="Phone" value="<?php echo $user_data['phone'] ?? "" ?>" style="margin-right: 7px;">
+                    <input type="text" placeholder="City" value="<?php echo $user_data['city'] ?? "" ?>"style="margin-left: 7px;">
                 </div>
             </div>
 
@@ -119,7 +119,7 @@
     </div>
 </div>
 
-
+<br>
 
 <script src="Scripts/paymentMethodChange.js"></script>
 

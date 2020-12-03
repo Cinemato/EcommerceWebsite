@@ -4,7 +4,6 @@
 <div class="container">
     <div class="title">
         <h2>About Us</h2>
-        <hr class="titleLine">
     </div>
     <div class="centerText">
         <p style="padding: 0px 3px;">Foold is a small start-up company created by 4 college students wanting to make a change</p>

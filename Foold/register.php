@@ -4,8 +4,8 @@
 
 
 
-<div class="centerText infoText">
-    <p style="font-size: 14.5px">You need to login to be able to purchase products!</p>
+<div class="centerText infoText loginText">
+    <p style="color: #555;">You need to login to be able to purchase products!</p>
 </div>
 
 <br>
@@ -26,7 +26,7 @@
 
 <div class="centerInput">
 
-    <div class="centerText" style="padding: 120px 30px; margin-top: 30px">
+    <div class="centerText infoForm">
 
         <h1>Sign-up</h1>
         <div class="login">

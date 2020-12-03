@@ -5,14 +5,14 @@
 <?php
     if(isset($_GET['signup']))
     {
-        echo '<div class="centerText infoText" style="border: 1px solid #36DC3A; background: #36DC3A">
-                    <p style="font-size: 16px; color: white">Registration Successful! You Can Login Now!</p>
+        echo '<div class="centerText infoText">
+                    <p>Registration Successful! You Can Login Now!</p>
               </div>';
     }
     else
     {
-        echo '<div class="centerText infoText">
-                    <p style="font-size: 14.5px">You need to login to be able to purchase products!</p>
+        echo '<div class="centerText infoText loginText">
+                    <p style="color: #555;">You need to login to be able to purchase products!</p>
              </div>';
     }
 
@@ -36,7 +36,7 @@
 
 
 <div class="centerInput">
-    <div class="centerText" style="padding: 120px 30px; margin-top: 30px;">
+    <div class="centerText infoForm">
         <h1>Login</h1>
         <div class="login">
             <form action="Database/login.db.php" method="post" class="login">
